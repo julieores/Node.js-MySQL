@@ -95,7 +95,7 @@ function continuePrompt() {
             },
 
         ]).then(function (user) {
-            if (user.message === "yes") {
+            if (answer.reply) {
                 start();
             } else {
                 console.log("Thanks for visiting bamazon! Come back soon!")
