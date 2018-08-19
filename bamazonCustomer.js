@@ -87,28 +87,21 @@ function updateDB(item, updatedInventory) {
 }
 
 function continuePrompt() {
-    // use inquirer to ask user if they want to continue shopping
-    // if yes, call displayItems()
-    // if not, connection.end()
-
-
     inquirer
         .prompt([{
-                name: "continueShopping",
-                type: "input",
+                name: "reply",
+                type: "confirm",
                 message: "Do you want to continue shopping?",
-                choices: ["yes", "no"]
-
             },
 
         ]).then(function (user) {
             if (user.message === "yes") {
-
-              
+                start();
+            } else {
+                console.log("Thanks for visiting bamazon! Come back soon!")
 
             }
-            displayItems();
-
         });
-
 }
+
+startApp();
