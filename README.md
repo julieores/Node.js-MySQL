@@ -3,7 +3,7 @@ demo of git pages
 
 
 Screenshot Images (4)
-![alt text](https://raw.githubusercontent.com/julieores/sqlhomework/images/mysqlinsuffquanity.png)
+https://raw.githubusercontent.com/julieores/sqlhomework/images/mysqlinsuffquanity.png
 
 ![alt text](https://raw.githubusercontent.com/julieores/sqlhomework/images/mysqlinvupdate.png)
 
