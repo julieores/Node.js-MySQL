@@ -1,5 +1,5 @@
 {
-  "name": "node.js-mysql",
+  "name": "sqlhomework",
   "version": "1.0.0",
   "description": "demo of git pages",
   "main": "bamazonCustomer.js",
@@ -22,6 +22,5 @@
     "inquirer": "^6.1.0",
     "mysql": "^2.16.0",
     "ts-error": "^1.0.3"
-  },
-  "devDependencies": {}
+  }
 }
