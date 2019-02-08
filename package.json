@@ -20,6 +20,7 @@
   "dependencies": {
     "console.table": "^0.10.0",
     "inquirer": "^6.1.0",
+    "lodash": "^4.17.11",
     "mysql": "^2.16.0",
     "ts-error": "^1.0.3"
   }
